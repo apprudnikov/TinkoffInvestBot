@@ -1,0 +1,27 @@
+{   
+    "tickers":["RTKM"], 
+    "timeFrames":[{"seconds":60, "timeLimit":"2023-09-18T00:00:00Z"}],
+    "experts":[{"ticker":"RTKM","name":"MA_INTERSECTION_60","lot":1,"mode":4},{"ticker":"TMOS","name":"STEP_60","lot":2,"mode":4}],
+    "trade":{"algo":true,"real":true,"demo":true,"long":true,"short":false, "token":"t.68LG_fmA0PbAuGf3FP05tsYkBnXqeGMpCOFho2Dvewo5VcdDTW86N0Jybb3V_AnrReB84uyMsdbReXqh3mb_kw"},
+    "books":["RTKM"],
+    "trades":["RTKM"],
+    "indicators":[
+        {"ticker":"RTKM","tf_seconds":86400,"name":"FRACTAL","indicators":[]},
+        {"ticker":"RTKM","tf_seconds":86400,"name":"BAR_BULL_BEAR","indicators":[]},
+        {"ticker":"RTKM","tf_seconds":86400,"name":"AO","indicators":
+            [
+                {"ticker":"RTKM","tf_seconds":86400,"name":"MA","mode":1,"period":34,"price":0,"shift":0,"indicators":[]},
+                {"ticker":"RTKM","tf_seconds":86400,"name":"MA","mode":1,"period":5,"price":0,"shift":0,"indicators":[]}
+        ]},
+        {"ticker":"RTKM","tf_seconds":86400,"name":"ALLIGATOR","indicators":
+            [    
+                {"ticker":"RTKM","tf_seconds":86400,"name":"MA","mode":1,"period":5,"price":0,"shift":3},
+                {"ticker":"RTKM","tf_seconds":86400,"name":"MA","mode":1,"period":8,"price":0,"shift":5},
+                {"ticker":"RTKM","tf_seconds":86400,"name":"MA","mode":1,"period":13,"price":0,"shift":8}
+        ]}
+    ],
+    "others":{"clearCandleHistory":true,"getData":true},
+    "tgUsers":["apprudnikov"],
+    "tgToken":"bot6076395751:AAEB69fGzsVcH3PU6fSURsZz5grqEyUTPJk",
+    "tgLogTypes":[1,2,3,4,5,6]
+}
